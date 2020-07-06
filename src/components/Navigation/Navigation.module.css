@@ -1,0 +1,10 @@
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 120px);
+  padding: 40px 0 0 60px;
+}
+
+a {
+  text-decoration: none;
+}
