@@ -5,6 +5,40 @@
   padding: 40px 0 0 60px;
 }
 
+.NavigationItems {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.NavigationItem {
+  cursor: pointer;
+  background: none;
+  border: none;
+  text-align: center;
+  color: white;
+  margin-left: 8px;
+  padding: 0 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font: 400 13.3333px Arial;
+  transition: all 0.4s;
+}
+
+.NavigationItem:hover {
+  background: white;
+  color: #ea4c09;
+  box-shadow: 4px 8px 20px rgba(215, 74, 9, 0.4);
+}
+
 a {
   text-decoration: none;
 }

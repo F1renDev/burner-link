@@ -1,4 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  background: linear-gradient(83.11deg, #fa8700 30.58%, #ea4c09 78.72%);
+  background-color: #fa8700;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: white;
 }

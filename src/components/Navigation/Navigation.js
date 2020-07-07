@@ -7,10 +7,10 @@ const Navigation = () => {
       <a href="/">Logo</a>
       <div className={styles.NavigationItems}>
         <div className={styles.NavigationItem}>
-          <h2>Share</h2>
+          <h2>SHARE</h2>
         </div>
         <div className={styles.NavigationItem}>
-          <h2>About</h2>
+          <h2>ABOUT</h2>
         </div>
       </div>
     </nav>
