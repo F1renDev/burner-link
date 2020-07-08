@@ -1,0 +1,31 @@
+.MessageBox {
+  position: relative;
+  margin-top: 42px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Container {
+  position: relative;
+  width: 1000px;
+  max-width: calc(100% - 40px);
+  margin: 0 20px;
+}
+.Quote {
+  position: absolute;
+  top: -34px;
+  left: 12px;
+  transition: all 0.3s;
+}
+.Textarea {
+  outline: none;
+  border: none;
+  width: 100%;
+  background: white;
+  box-shadow: 4px 8px 20px rgba(215, 74, 9, 0.4);
+  border-radius: 12px;
+  height: 240px;
+  padding: 28px;
+  box-sizing: border-box;
+  font: 400 18.3333px Arial;
+}
