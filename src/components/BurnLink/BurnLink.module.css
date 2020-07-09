@@ -1,0 +1,27 @@
+.BurnLink {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.BurnLink button {
+  font-size: 1.3rem;
+  position: relative;
+  transition: all 0.2s;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 28px;
+  height: 56px;
+  padding: 0 48px;
+  font-weight: 600;
+  text-align: center;
+  color: #fe520a;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.BurnLink button:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 8px 20px rgba(215, 74, 9, 0.4);
+}

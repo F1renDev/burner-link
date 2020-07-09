@@ -4,7 +4,15 @@ import styles from "./Navigation.module.css";
 const Navigation = () => {
   return (
     <nav className={styles.Navigation}>
-      <a href="/">Logo</a>
+      <div className={styles.Logo}>
+        <a href="/">
+          Link B
+          <span role="img" aria-label="image of fire">
+            🔥
+          </span>
+          rner
+        </a>
+      </div>
       <div className={styles.NavigationItems}>
         <div className={styles.NavigationItem}>
           <h2>SHARE</h2>
