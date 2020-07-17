@@ -9,10 +9,12 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <div className={styles.App}>
-      <Navigation />
-      <MainDescription />
-      <MessageBox />
-      <BurnLink />
+      <div className={styles.Content}>
+        <Navigation />
+        <MainDescription />
+        <MessageBox />
+        <BurnLink />
+      </div>
       <Footer />
     </div>
   );
