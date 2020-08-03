@@ -12,7 +12,6 @@ const MessageBox = () => {
             viewBox="0 0 84 68"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            style={{ "pointer-events": "none" }}
           >
             <g filter="url(#filter0_d)">
               <path
@@ -28,10 +27,10 @@ const MessageBox = () => {
                 width="82.4"
                 height="68"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
                 <feFlood
-                  flood-opacity="0"
+                  floodOpacity="0"
                   result="BackgroundImageFix"
                 ></feFlood>
                 <feColorMatrix

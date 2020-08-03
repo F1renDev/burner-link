@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={styles.Footer}>
       <div>
-        <a href="https://f1rendev.netlify.app">Valentine Maltsev</a>
+        <a href="https://f1rendev.netlify.app">Valentin Maltsev</a>
       </div>
     </div>
   );
