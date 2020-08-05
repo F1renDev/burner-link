@@ -18,7 +18,7 @@ const Modal = () => {
           <h3 className={styles.HeaderPadding}>Is this safe to use?</h3>
           <p>
             Yes. The message is encrypted in your browser and you are given a
-            link containing the decryption key.{" "}
+            link containing the decryption key.
           </p>
           <p>
             The message can be decrypted only by someone with that link, and
