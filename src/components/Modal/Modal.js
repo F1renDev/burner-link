@@ -3,8 +3,13 @@ import React from "react";
 import styles from "./Modal.module.css";
 
 const Modal = () => {
+
+  const clickHandler = () => {
+    console.log(123)
+  }
+
   return (
-    <div className={styles.Modal}>
+    <div className={styles.Modal} onClick={clickHandler}>
       <div className={styles.AboutBox}>
         <div className={styles.AboutHeader}>
           <h2>About Burner Link</h2>
