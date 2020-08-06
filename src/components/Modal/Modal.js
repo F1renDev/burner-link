@@ -1,10 +1,18 @@
 import React from "react";
 import Backdrop from "../Backdrop/Backdrop";
 import styles from "./Modal.module.css";
+import { useSelector, shallowEqual } from "react-redux";
 
 const Modal = () => {
+  const shouldDisplay = useSelector(
+    (state) => state.displayModal,
+    shallowEqual
+  );
+
+  console.log(shouldDisplay);
+
   return (
-    <div className={styles.Modal}>
+    <div className={styles.Modal} style={{ display: shouldDisplay || "none" }}>
       <Backdrop />
       <div
         style={{
