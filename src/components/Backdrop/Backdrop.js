@@ -4,10 +4,6 @@ import * as actionTypes from "../../store/actions";
 import { useDispatch } from "react-redux";
 
 const Backdrop = () => {
-  // const shouldDisplay = useSelector(
-  //   (state) => state.displayModal,
-  //   shallowEqual
-  // );
   const dispatch = useDispatch();
 
   const clickHandler = () => {
